@@ -1,0 +1,7 @@
+#include "il2cpp-config.h"
+#include "/Users/deesharv/StudioProjects/Exported-Project/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/gc/BoehmGC.cpp"
+#include "/Users/deesharv/StudioProjects/Exported-Project/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/gc/GCHandle.cpp"
+#include "/Users/deesharv/StudioProjects/Exported-Project/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/gc/GarbageCollector.cpp"
+#include "/Users/deesharv/StudioProjects/Exported-Project/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/gc/NullGC.cpp"
+#include "/Users/deesharv/StudioProjects/Exported-Project/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/gc/WriteBarrier.cpp"
+#include "/Users/deesharv/StudioProjects/Exported-Project/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/libil2cpp/gc/WriteBarrierValidation.cpp"
