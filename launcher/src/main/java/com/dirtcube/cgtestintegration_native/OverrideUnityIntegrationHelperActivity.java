@@ -19,8 +19,10 @@ public class OverrideUnityIntegrationHelperActivity extends UnityIntegrationHelp
         Log.d("UnityHelper", finalLocation);
 
         mUnityPlayer.UnitySendMessage("MainGameManager", "SetDefaultSound", "false");
-        //mUnityPlayer.UnitySendMessage("MainGameManager", "SetScreenOrientation", "landscape");
+        mUnityPlayer.UnitySendMessage("MainGameManager", "SetAge", "9");
         mUnityPlayer.UnitySendMessage("MainGameManager", "LoadGameFromLocalCache", finalLocation);
+
+        //mUnityPlayer.UnitySendMessage("MainGameManager", "SetScreenOrientation", "landscape");
     }
 
     private String copyFileFromAssetToCache(String filename) {
@@ -92,7 +94,6 @@ public class OverrideUnityIntegrationHelperActivity extends UnityIntegrationHelp
     @Override
     public void gameEnded(int lastLevelNumber) {
         Log.d("GameConsoleLog: ","gameEnded ");
-
     }
 
     /**Call this event when user changes sound setting
@@ -101,7 +102,6 @@ public class OverrideUnityIntegrationHelperActivity extends UnityIntegrationHelp
     @Override
     public void soundSettingChanged(boolean isSoundOn) {
         Log.d("GameConsoleLog: ","soundSetting: "+isSoundOn);
-
     }
 
     /**Call this event when the user exits the game by pressing back from the main screen*/
